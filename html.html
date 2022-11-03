@@ -5,13 +5,66 @@
 </head>
 
 <body>
-<h1>HTML Tags</h1>
+<h1 id= "top-of-page">HTML Tags</h1>
 <h2>Headings</h2>
 <p>Headings come in different levels: h1 for the top-level heading, h2 for the top sub-heading, and so on</p>
 <ul>
     <li>every page should have one, and only one h1 tag</li>
     <li>headings from `h1` to `h6` identify blocks and sections</li>
 </ul>
+<h2>Paragraphs</h2>
+<p>Paragraphs of long-form text containing complete sentences go in the p (paragraph) tag.</p>
+<h2>Lists</h2>
+<ol>
+<li>Ordered lists</li>
+<p>Ordered lists are numbered and go in `ol` tags. Each list item goes in an `li` tag.</p>
+<li>Unordered lists</li>
+<p>Unordered lists are marked with bullet points and go in `ul` tags. Each list item goes in an `li` tag.</p>
+</ol>
+<h2>Anchors (Links)</h2>
+<ul>
+    <li>Now, you think you'd use the link element to do that. That's not what you use. Instead, you use an anchor element (a).</li>
+    <p>
+
+    </p>
+    <li>Anchor tags create links to other pages. The URL goes in the `href` attribute.</li>
+    <a href="https://duckduckgo.com">
+        Open link to surch for more info
+    </a>
+    <p>
+
+    </p>
+    <li>Setting `target="_blank"` will open the link in a new window.</li>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+        Opens MDN
+    </a>
+    <p>
+
+    </p>
+    <li>Can be used to navigate to a different location on the current HTML page.</li>
+    <a href="#top-of-page">
+        Click to go to the top of the page
+    </a>
+</ul>
+<h2>Text Emphasis</h2>
+<h3>Italic</h3>
+<em>
+    The `em` element adds extra emphasis to the text within the opening and closing tags.
+</em>
+<h3>Bold</h3>
+<strong>
+    You can also use the `strong` element this shows up as bold text.
+</strong>
+<h2>Organizing content</h2>
+<h3>Div</h3>
+<p>The `div` element is a block element, so each `div` will show up on a new line.</p>
+<div>First div</div>
+<div>Second div</div>
+<h3>Span</h3>
+<p>The `span` element is an inline element, so there will be no line break between each `span`.</p>
+<span>First span</span>
+<span>Second span</span>
+
 
 
 
